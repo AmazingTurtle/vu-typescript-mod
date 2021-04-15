@@ -1,6 +1,6 @@
 # VU Mods + Typescript
 
-![expressive image of satisfaction when working with typescript](./yeah.jpg | width=100)
+![expressive image of satisfaction when working with typescript](./yeah.jpg)
 
 This is a boilerplate repository for writing mods for venice unleashed with typescript instead of lua.
 Actually, the typescript code is compiled to lua. But you still have all the nice typescript gains during development!
