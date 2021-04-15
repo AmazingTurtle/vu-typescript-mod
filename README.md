@@ -39,7 +39,7 @@ yarn dev
 - `node_modules/`
   > The node dependencies. Here lives typescript and the lua transpiler. Don't touch
 - `rime-dump/`
-  > This is a dump of [Venice-EBX](https://github.com/EmulatorNexus/Venice-EBX)
+  > This is a dump of [Venice-EBX](https://github.com/EmulatorNexus/Venice-EBX). I did not include it in vu-typescript-mod, but you might want to clone Venice-EBX yourself.
 - `typings/`
   > Auto-generated typescript typings from the latest VU docs
 - `package.json`
