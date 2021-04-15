@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "target": "esnext",
+    "module": "umd",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "types": ["lua-types/jit", "global"],
+    "typeRoots": [
+      "./typings"
+    ],
+    "strict": true,
+    "plugins": [{ "name": "typescript-tstl-plugin" }]
+  },
+  "include": [
+    "ext/**/*.ts"
+  ],
+  "tstl": {
+    "luaTarget": "5.3",
+    "luaPlugins": [{
+      "name": "./vu-printer.ts"
+    }],
+    "luaLibImport": "inline",
+    "noImplicitSelf": true
+  }
+}

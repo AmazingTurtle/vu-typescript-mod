@@ -1,0 +1,4 @@
+.idea/
+ext/**/*.lua
+*.log
+node_modules/

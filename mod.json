@@ -1,0 +1,11 @@
+{
+    "Name": "a generic typescript mod",
+    "Description": "give your mod a description",
+    "Authors": ["AmazingTurtle"],
+    "Tags": ["tscmod"],
+    "Version": "1.0.0",
+    "HasVeniceEXT": true,
+    "Dependencies": {
+        "veniceext": "^1.0.0"
+    }
+}
